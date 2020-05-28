@@ -2,7 +2,7 @@
 
 const { Transform } = require('stream');
 
-const table = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!#$%&()*+,./:;<=>?@[]^_`{|}~"';
+const table = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!#$%&()*+,./:;<=>?@[]^_`{|}~'';
 
 /**
  * Encode data to basE91, where data can be `String` or `Buffer`.
